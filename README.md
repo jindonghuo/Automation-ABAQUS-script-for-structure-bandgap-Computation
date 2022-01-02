@@ -43,7 +43,7 @@ This file is for postprocess, which parses the *.dat file for the natural freque
 * serach the bandgap
 * write the bandgap for every geometry parameter pairs.
 
-## Below is the design geometry parameter spaces
+## Below is the design geometry parameter space
 ![alt text](https://github.com/jindonghuo/Automation-ABAQUS-script-for-bandgap-calculation/blob/68540c3690d9b7b54330c13bf3768a0b2fe6aaf7/geometry%20space.png)
 
 ## Authors
