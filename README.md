@@ -9,5 +9,14 @@ From the band structure, if there is a bandgap, the vibration frequency within t
 
 In order to find the best design of unitcell structure, the automation will loop through all possible design, do freqency calculation and serach the bandgap.
 
+## main.py
 
-## 
+This is the main file. And running this file will start all computation. In general, it will do the following things
+* There are two geometry parameters, so two for loop will go through each parameter combinations to create the geometry.
+* In order to get a good mesh, equiDistance functions will rearrange the mesh seeds points.
+* Then, it will set up the simulation model for each K point (each geometry can have many wave boudnary conditions which represents difference wave length).
+* Do the computaiton, and check if the result file generated, it will proceed to next job.
+* 
+* 
+
+##
