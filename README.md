@@ -1,6 +1,6 @@
 # Automation by using ABAQUS script for bandgap calculations
 
-Hope this method can help you to use ABAQUS python script for automation. Please note Abaqus python is python 2, but our main.py is python 3, and they can work together very well.
+Hope this method can help you to use ABAQUS python script for automation. Please note Abaqus python is python 2, and the main.py is python 3 file, but they can work together very well.
 
 ## Description
 This project is for large scale computing for structure optimization that can find the stuructre/geometry with best bandgap for vibration control.
