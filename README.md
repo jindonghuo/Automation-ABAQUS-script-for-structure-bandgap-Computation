@@ -43,5 +43,8 @@ This file is for postprocess, which parses the *.dat file for the natural freque
 * serach the bandgap
 * write the bandgap for every geometry parameter pairs.
 
+## Below is the design geometry parameter spaces
+
+
 ## Authors
 Jindong Huo
