@@ -1,9 +1,12 @@
 # Automation by ABAQUS Python script for structure optimization based on bandgap
 
-Hope this method can help you to use ABAQUS python script for automation. Please note Abaqus python is python 2, and the main.py is python 3 file, but they can work together very well.
+
+## Contributor
+Jindong Huo, independent contributor
 
 ## Description
 This project is for large scale computing for structure optimization that can find the stuructre/geometry with best bandgap for vibration control.
+Hope this method can help use ABAQUS python script for automation. Please note Abaqus python is python 2, and the main.py is python 3 file, but they can work together very well.
 
 ## Physcial process
 For spatial peroridcal structure, when subject to wave transmission/vibration, the dynamic equation(wave equation) follows Bloch's theorem. By specifying the bloch wave boundary conditions, we can do a natural freqency extraction and loop through all brillouin zone point (irreduicable brillouin zone) to get the band structure, thus to find the forbidden frequency range.
@@ -46,5 +49,3 @@ This file is for postprocess, which parses the *.dat file for the natural freque
 ## Below is the design space of geometry parameters
 ![alt text](https://github.com/jindonghuo/Automation-ABAQUS-script-for-bandgap-calculation/blob/68540c3690d9b7b54330c13bf3768a0b2fe6aaf7/geometry%20space.png)
 
-## Contributor
-Jindong Huo, independent contributor
