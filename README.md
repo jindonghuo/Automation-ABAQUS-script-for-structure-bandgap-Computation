@@ -1,4 +1,4 @@
-# Automation by ABAQUS Python script for structure optimization based on bandgap
+# Automation by ABAQUS Python script for structure optimization for phononic bandgap
 
 
 ## Contributor
