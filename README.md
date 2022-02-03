@@ -5,7 +5,7 @@
 Jindong Huo, independent contributor
 
 ## Description
-This project is for large scale computing for structure optimization that can find the stuructre/geometry with best bandgap for vibration control.
+This project is for large scale computing for structure optimization that can find the structure/geometry with best bandgap for vibration control.
 Hope this method can help use ABAQUS python script for automation. Please note Abaqus python is python 2, and the main.py is python 3 file, but they can work together very well.
 
 ## Physcial process
