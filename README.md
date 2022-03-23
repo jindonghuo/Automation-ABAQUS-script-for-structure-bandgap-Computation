@@ -5,12 +5,12 @@
 Jindong Huo, independent contributor
 
 ## Description
-This project is for large-scale structure optimization computing to find the target structure/geometry with the best bandgap for vibration control.
-Hope this method can help use ABAQUS python script for automation. Please note Abaqus python is python 2, and the main.py is python 3 file, but they can work together very well.
+Througth topology/geometry optimization, this project aims to find the target structure/geometry configuration with the best bandgap for vibration control.
+This method takes advantage of ABAQUS python script for automation. Please note Abaqus python is python 2, and the main.py is python 3, but they can work together very well.
 
 ## Physcial process
-For spatial peroridcal structure, when subject to wave transmission/vibration, the dynamic equation(wave equation) follows Bloch's theorem. By specifying the bloch wave boundary conditions, we can do a natural freqency extraction and loop through all brillouin zone point (irreduicable brillouin zone) to get the band structure, thus to find the forbidden frequency range.
-From the band structure, if there is a bandgap, the vibration frequency within that bandgap cannot propagate through the materials. This is the basic rule for accrousitc metamaterials design.
+For spatial peroridcal structure, when subject to wave transmission, the dynamic equation(wave equation) follows Bloch's theorem. By specifying the bloch wave boundary conditions, we can do a natural freqency extraction and loop through all brillouin zone points (irreduicable brillouin zone) to calculate the dispersion relation namely, the band structure thus to find the forbidden frequency range.
+If there is a gap in the calcuated band structure, the vibration that its frequency is within that bandgap cannot propagate through the materials. This is the basic rule for accrousitc metamaterials design.
 
 In order to find the best design of unitcell structure, the automation will loop through all possible design, do freqency calculation and serach the bandgap.
 
