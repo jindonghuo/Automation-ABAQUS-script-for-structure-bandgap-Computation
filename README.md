@@ -12,7 +12,7 @@ This method takes advantage of ABAQUS + python script for automation. Please not
 For spatial peroridcal structure, when subject to wave transmission, the dynamic equation(wave equation) follows Bloch's theorem. By specifying the bloch wave boundary conditions, we can do a natural freqency extraction and loop through all Brillouin zone points (irreduicable brillouin zone) to calculate the dispersion relation, namely the band structure, to find the forbidden frequency range or bandgap.
 If there is a gap in the calcuated band structure, the wave that its frequency is within that bandgap cannot propagate through the meta-materials. This is the basic rule for accrousitc metamaterials design.
 
-In order to find the best design of unitcell structure, the automation will loop through all possible design, do freqency calculation and serach the bandgap. In other words this is a brute force search. So please refer this paper for the efficient DGD algorith for searching: 
+In order to find the best design of unitcell structure, the automation will loop through all possible design, do freqency calculation and serach the bandgap. In other words this is a brute force search. So please refer to below paper for the efficient DGD algorith for searching: 
 https://iopscience.iop.org/article/10.1088/1361-665X/acc36c/meta
 
 ## main.py
