@@ -145,7 +145,7 @@ for c1 in CC1:
             for ii in range(len(xf)):
                 f1.write('{xx:.6f}, {yy:.6f} \n'.format(xx=xf[ii], yy=yf[ii]))
         
-        for k in range(len(WNBri1)):
+        for k in range(len(WNBri1)): # please not this k represents the product of unitcell base vector and wave vector in irredcibale 1st brillouin zone
             Xcos, Xsin=np.cos(WNBri1[k]), np.sin(WNBri1[k])
             Ycos, Ysin=np.cos(WNBri2[k]), np.sin(WNBri2[k])
             count+=1
