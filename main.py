@@ -10,7 +10,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 
-# created by Jindong Huo, huojindong@gamil.com
+# created by Jindong Huo, huojindong@gmail.com
 def equiDistance(x, y, dL):
     Darray=np.sqrt((x[1:]-x[:-1])**2+(y[1:]-y[:-1])**2)
     Dcum=[np.sum(Darray[:i+1]) for i in range(len(Darray))]
